@@ -1,0 +1,36 @@
+div.textcss{
+    color: deeppink;
+    text-align: justify;
+    text-indent:60px;
+    text-shadow: 10px 10px 0.5px #555555;
+}
+/*a {!**text-decoration 属性用来设置或删除文本的装饰。*!*/
+    /*text-decoration:none;*/
+/*}*/
+.text1{
+    font-family: "Times New Roman";
+    font-style: inherit;
+}
+
+.text2{
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.text3{
+    font-family: Serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+/*正常，未访问过的链接*/
+a:link{ color: blue;}
+
+/**已访问*/
+a:visited{ color: green;text-decoration:none}
+
+/**当用户鼠标放在链接上时*/
+a:hover{color:aqua}
+
+/**链接被点击的那一刻*/
+a:active{color:red}

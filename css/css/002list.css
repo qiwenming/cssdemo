@@ -1,0 +1,49 @@
+.noOrder1{
+    list-style-type: circle;
+}
+
+.noOrder2{
+    list-style-type: square;
+}
+
+.order1{
+    list-style-type: upper-alpha;
+}
+
+.order2{
+    list-style-type: lower-greek;
+}
+/*ul{*/
+    /*list-style-image: url("../../image/item.png");*/
+    /*margin-left: 100px;*/
+/*}*/
+.divBox{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin:20px;
+    outline:5px solid green;
+}
+
+.borderCss{
+    width: 400px;
+    height:200px;
+    text-align: center;
+    font-size: 130px;
+
+    border: 100px outset blueviolet;
+}
+
+.dimension{
+    line-height: 30px;/**行高*/
+}
+
+.display{
+    display:none;
+}
+
+.visibility{
+    visibility: hidden;
+}
